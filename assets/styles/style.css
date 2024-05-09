@@ -1,0 +1,105 @@
+@import url(./font.css);
+:root{
+    --purple: rgb(42, 37, 75);
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 69px;
+}
+.header1 .header1_col2, h1{
+    margin-top: 20px;
+}
+.header1_col2{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    
+}
+.header1 h1{
+    font-size:24px;font-weight:400;font-family: 'Clash';
+    color: rgb(34, 32, 46);
+    margin-left: 20px;
+    
+}
+
+/* .header1 ul{
+    display: flex;
+    flex-direction: row;
+} */
+.header1 li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header1_nav a{
+    /* display: none; */
+    color: rgb(114, 110, 141);
+    font-size: 16px;font-weight: 400;font-family: 'Satoshi';
+}
+.header1_icons{
+    margin-right: 20px;
+    color: var(--purple);
+
+}
+.header1_icons a{
+    color: var(--purple);
+}
+
+.bi-list {
+    color: var(--purple);
+
+}
+/* .bi-cart3, .bi-person-circle{
+    display: none;
+} */
+/*  */
+.header2{
+    display: none;
+}
+.section_col1 {
+    display: grid;
+}
+.section_col1 h2{
+    font-size:32px;font-weight:400;font-family: 'Clash';
+    margin-left: 20px;
+}
+
+
+/* @media screen and (min-width:420px) {
+
+    html{
+        font-size: 14px;
+    }
+    .header1_icons{
+        gap: 16px;
+    }
+    .header1_nav a{
+    display: none;
+}
+    .bi-cart3, .bi-person-circle{
+        display: block;
+    }
+    .bi-list{
+        display: none;
+    }
+} */
+@media screen and (max-width:1000px){
+    .header1 li{
+        margin: 0;
+    }
+    .header1_nav{
+        display: none;
+    }
+    .bi-cart3, .bi-person-circle{
+        display: none;
+    }
+    
+}
