@@ -14,7 +14,7 @@
     justify-content: space-between;
     height: 69px;
 }
-.header1 .header1_col2, h1{
+.header1 .header1_col2, .header1 h1{
     padding-top: 20px;
 }
 .header1_col2{
@@ -190,7 +190,7 @@
 }
 /* Section4 */
 .section4{
-    height: 479px;
+    height: 573px;
 }
 #section4_title{
     font-size: 20px;font-family: 'Clash';font-weight: 400;
@@ -223,63 +223,41 @@
 .section4 button a{
     color: var(--purple);
 }
-
-
-
-
-/* @media screen and (min-width:800px) {
-    .header2{
-        display: block;
-    }
-
-    .header1_nav{
-        display: block;
-    }
-    .bi-cart3, .bi-person-circle{
-        display: block;
-    }
-    .bi-list{
-        display: none;
-    }
-    .btn {
-        grid-row: 2;
-        width: 170px;height: 56px;
-        margin: -100px 20px 0 20px;
-    }
-} */
-
-
-/* @media screen and (min-width:420px) {
-
-    html{
-        font-size: 14px;
-    }
-    .header1_icons{
-        gap: 16px;
-    }
-    .header1_nav a{
-    display: none;
+/* Section5 */
+.section5{
+    height: 292px;
 }
-    .bi-cart3, .bi-person-circle{
-        display: block;
-    }
-    .bi-list{
-        display: none;
-    }
-} */
-/* @media screen and (max-width:800px){
-    .header1 li{
-        margin: 0;
-    }
-    .header1_nav{
-        display: none;
-    }
-    .bi-cart3, .bi-person-circle{
-        display: none;
-    }
-    .section_col2 img{
-        display: none;
-    }
+#section5_title{
+    font-size: 20px;font-family: 'Clash';font-weight: 400;
+    color: var(--purple);
+    padding-top: 70px;
+}
+.section5_col{
+    margin-left: 24px;
+}
+.section5_col p{
+    font-size: 14px;font-family: 'Satoshi';font-weight: 400;
+    color: var(--purple);
+    margin-top: 20px;
+    margin-bottom: 64px;
+}
 
-    
-} */
+.input_container form{
+    display: flex;
+    width: 342px;height: 56px;
+}
+#email_{
+    width: 224px;height: 56px;
+    border: none;
+    background-color: rgb(249, 249, 249);
+}
+#email_[placeholder]{
+    padding-left: 32px;
+}
+#signup_{
+    font-size: 16px;font-family: 'Satoshi';font-weight: 400;
+    background-color: var(--purple);
+    color: white;
+    border: none;
+    width: 118px;height: 56px;
+}

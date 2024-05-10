@@ -107,4 +107,29 @@
     .btn_3{
         text-align: center;
     }
+    /*  */
+    .section5{
+        height: 400px;
+        background-color: rgb(249, 249, 249);
+        text-align: center;
+        padding: 52px 40px 0 30px; 
+    }
+    .section5_col{
+        background-color: white;
+    }
+    .input_container{
+        display: flex;
+        justify-content: center;
+    }
+    .input_container form{
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+    #section5_title{
+        font-size: 36px;font-family: 'Clash';font-weight: 400;
+    }
+    .section5_col p{
+        font-size: 16px;font-family: 'Satoshi';font-weight: 400;
+    }
+    /*  */
 }
