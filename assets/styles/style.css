@@ -262,3 +262,42 @@
     border: none;
     width: 118px;height: 56px;
 }
+/* Section6 */
+.section6{
+    height: 828px;
+}
+.section6_col1{
+    margin:0 24px;
+}
+.section6_col1 h4{
+    font-size: 20px;font-family: 'Clash';font-weight: 400;
+    color: var(--purple);
+    padding-top: 70px;
+    margin-right: 92px;
+
+}
+.section6_col1 p{
+    font-size: 14px;font-family: 'Satoshi';font-weight: 400;
+    color: var(--purple);
+    margin-top: 12px;
+    margin-bottom: 34px;
+}
+.section6 button{
+    font-size: 16px;font-family: 'Satoshi';font-weight: 400;
+    background-color: rgb(249, 249, 249);
+    border: none;
+    height: 56px;
+    margin: 29px 24px 0 24px;
+    width: 342px;
+}
+.section6 button a{
+    color: var(--purple);
+}
+.section6_col2{
+    padding-top: 38px;
+}
+.section6_col2 img{
+    height: 358px;
+    width: 390px;
+}
+/* Footer */
