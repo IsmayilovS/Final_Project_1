@@ -28,7 +28,7 @@
     margin-left: 24px;  
 }
 .header1 li{
-    display: inline-block;
+    display: flex;
     padding: 0 10px;
 }
 .header1_nav{
@@ -39,7 +39,7 @@
     font-size: 16px;font-weight: 400;font-family: 'Satoshi';
 }
 .header1_icons{
-    padding-top: 2px;
+    padding-top: 1px;
     margin-left: 27px;
 }
 .header1_icons a{
@@ -47,9 +47,11 @@
 }
 .bi-list {
     color: var(--purple);
-    margin-left: -30px;
+    margin-left: 10px;
 }
-
+.bi-search{
+    margin-left:40px ;
+}
 .bi-cart3, .bi-person-circle{
     display: none;
 }
