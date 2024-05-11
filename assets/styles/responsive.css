@@ -176,5 +176,80 @@
         margin-left: 90px;
     }
 /*  */
-
+.footer_cols{
+    display: flex;
+}
+.footer_col1{
+    display: flex;
+    gap: 109px;
+    padding: 58px 109px 78.5px 82px;
+}
+.footer_col1 ul{
+    width: 108px;
+}
+.footer_col1 ul li{
+    margin-top: 12px;
+}
+.footer_col1 ul li h6{
+    font-size: 16px;font-family: 'Clash';font-weight: 400;
+    color: white;   
+}
+.footer_col1 ul li a{
+    font-size: 14px;font-family: 'Satoshi';font-weight: 400;
+    color: white;
+}
+.footer_col2{
+    padding: 58px 83px 161px 0px;
+}
+.footer_col2 ul li h6{
+    font-size: 16px;font-family: 'Clash';font-weight: 400;
+    color: white;
+}
+.footer_col2  form{
+    display: flex;
+    width: 627px;height: 56px;
+    margin-top: 16px;
+}
+#email_footer{
+    width: 509px;height: 56px;
+    border: none;
+    background-color: rgb(74, 69, 102);
+}
+#email_footer[value]{
+    font-size: 16px;font-family: 'Satoshi';font-weight: 400;
+    padding-left: 32px;
+    color: white;
+}
+#signup_footer{
+    font-size: 16px;font-family: 'Satoshi';font-weight: 400;
+    background-color: white;
+    color: var(--purple);
+    border: none;
+    width: 118px;height: 56px;
+}
+.footer_line{
+    border: 1px solid rgb(78, 77, 147);
+    margin: 0 83px;
+}
+.footer_last{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_last p{
+    font-size: 16px;font-family: 'Satoshi';font-weight: 400;
+    padding: 20px 80px;
+    color: white;
+}
+.footer_icons{
+    display: block;
+}
+.footer_icons ul{
+    display: flex;
+    gap: 24px;
+    padding: 20px 80px;
+}
+.footer_icons ul a{
+    color: white;
+    width: 24px;height: 24px;
+}
 }
