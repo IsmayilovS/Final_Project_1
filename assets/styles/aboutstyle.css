@@ -81,7 +81,7 @@
 .header2{
     height: 64px;
     background-color: rgb(249, 249, 249); 
-    /* overflow-x:scroll ; */
+    overflow-x:scroll ;
 }
 .header2 ul{
     display: flex;
@@ -92,11 +92,9 @@
 .header2 li{
     margin:16px 0;
 }
-
 .header2 a{
    color:rgb(114, 110, 141);
    font-size: 16px;font-weight: 400;font-family: 'Satoshi';
 }
-
 /*  */
 
