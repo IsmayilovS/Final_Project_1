@@ -45,7 +45,7 @@
 .header1_icons a{
     color: var(--purple);
 }
-.bi-list {
+.fa-bars {
     color: var(--purple);
     margin-left: 10px;
 }
@@ -267,7 +267,7 @@
 }
 /* Section6 */
 .section6{
-    height: 828px;
+    height: 830px;
 }
 .section6_col1{
     margin:0 24px;

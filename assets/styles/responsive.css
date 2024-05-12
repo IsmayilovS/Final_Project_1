@@ -8,12 +8,14 @@
     .bi-cart3, .bi-person-circle{
         display: block;
     }
-    .bi-list {
-        display: none;;
+    .fa-bars {
+        display: none;
     }
+    /*  */
     .header2{
         display: block;
     }
+    /*  */
     .section_cols{
         display: flex;
         justify-content: center;
@@ -43,6 +45,7 @@
     .section_col2{
         display: block;
     }
+    /*  */
     .section2{
         height: 355px;
     }
@@ -172,7 +175,7 @@
     }
     .section6_col2 img{
         height: 603px;
-        width: 720px;
+        width: 100%;
     }
     .btn_5{
         grid-row: 2;

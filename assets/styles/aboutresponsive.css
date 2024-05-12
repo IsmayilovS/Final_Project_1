@@ -1,0 +1,39 @@
+@media screen and (min-width:800px) {
+    .billboard_content1{
+        display: flex;
+        margin-left: 16px;
+    }
+    .billboard_content1 .fa-truck-fast{
+        color: white;
+        margin-top: 8px;
+        margin-right: 11px;
+    }
+    .billboard_content1 p{
+        margin: 8px 0;
+    }
+    .billboard_content2{
+        margin: 8px 16px;
+    }
+    /*  */
+    .header1_nav{
+        display: flex;
+    }
+    .header1_icons{
+        display: flex;
+    }
+    .bi-cart3, .bi-person-circle, .bi-search {
+        display: block;
+    }
+    .fa-bars {
+        display: none;
+    }
+    /*  */
+    .header2 ul{
+        display: flex;
+        justify-content: center;
+    }
+    .header2 li{
+        margin: 22px 0;
+    }
+
+}
