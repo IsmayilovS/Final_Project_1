@@ -118,7 +118,7 @@
 #section2_title{
     font-size: 24px;font-family: 'Clash';font-weight: 400;
     color: var(--purple);
-    padding: 48px 0 36px 24px;
+    padding: 48px 92px 36px 24px;
 }
 .box_container{
     display: flex;
@@ -268,7 +268,7 @@
 }
 /* Section6 */
 .section6{
-    height: 830px;
+    height: 832px;
 }
 .section6_col1{
     margin:0 24px;
