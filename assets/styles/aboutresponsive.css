@@ -28,6 +28,9 @@
         display: none;
     }
     /*  */
+    .header2{
+        overflow: hidden;
+    }
     .header2 ul{
         display: flex;
         justify-content: center;

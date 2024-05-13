@@ -263,5 +263,9 @@
     #signup_footer, #email_footer{
         display: none;
     }
-    
+}
+@media screen and (max-width: 800px){
+    #signup_footer, #email_footer{
+        display: block;
+    }
 }

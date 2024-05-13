@@ -40,11 +40,16 @@
     </div>
     <!--  -->
     <main>
+        
         <div class="gridd">
-            <div id="h6_1"><h6>Product</h6></div>
+            <div id="gridd_text1">
+                <div><h1>Your shopping cart</h1></div>
+                <div id="h6_1"><h6>Product</h6></div>
+            </div>
             <div id="h6_2"><h6>Quantity</h6></div>
             <div id="h6_3"><h6></h6></div>
             <div id="h6_4"><h6>Total</h6></div>
+            <div id="h6_5"><h6></h6></div>
             <div class="card1">
                 <div class="card1_content">
                     <img src="../images/gravestone_Vase.jpeg" alt="">
@@ -53,6 +58,11 @@
                         <p id="about_item">A timeless ceraimc vase with <br>
                         a tri color grey glaze. </p>
                         <p id="price_s">£85</p>
+                            <div class="card_quantity">
+                                <span class="minus">-</span>
+                                <span class="number">1</span>
+                                <span class="plus">+</span>
+                            </div>
                     </div>    
                 </div>    
             </div>
@@ -64,13 +74,95 @@
                         <p id="about_item">Beautiful and simple this is <br>
                         one for the classics</p>
                         <p id="price_s">£125</p>
-                    </div>    
+                    </div>
                 </div>
             </div>
+            <div class="quantity_counter1_grid">
+                <div class="quantity_counter1">
+                    <span class="minus">-</span>
+                    <span class="number">1</span>
+                    <span class="plus">+</span>
+                </div>
+            </div>
+            <div class="quantity_counter2_grid">
+                <div class="quantity_counter2">
+                    <span class="minus">-</span>
+                    <span class="number">1</span>
+                    <span class="plus">+</span>
+                </div>
+            </div>    
             <div id="total_price1"><p>£85</p></div>
             <div id="total_price2"><p>£125</p></div>
-            
+            <div class="checkout_box">
+                <span class="checkout_price">
+                    <h4>Subtotal</h4>
+                    <h3>£210</h3>
+                </span>
+                <p>Taxes and shipping are calculated at checkout</p>
+                <form action="...">
+                    <input type="submit" id="go_checkout" value="Go to checkout">
+                </form>   
+            </div>
         </div>
     </main>
+    <!--  -->
+    <footer>
+        <div class="footer_cols">
+            <div class="footer_col1">
+                <ul class="footer_col1_menu">
+                    <li><h6>Menu</h6></li>
+                    <li><a href="">New arrivals</a></li>
+                    <li><a href="">Best sellers</a></li>
+                    <li><a href="">Recently viewed</a></li>
+                    <li><a href="">Popular this week</a></li>
+                    <li><a href="">All products</a></li>
+                </ul>
+                <ul class="footer_col1_categories">
+                    <li><h6>Categories</h6></li>
+                    <li><a href="">Crockery</a></li>
+                    <li><a href="">Furniture</a></li>
+                    <li><a href="">Homeware</a></li>
+                    <li><a href="">Plant pots</a></li>
+                    <li><a href="">Chairs</a></li>
+                    <li><a href="">Crockery</a></li>
+                </ul>
+                <ul>
+                    <li><h6>Our company</h6></li>
+                    <li><a href="./assets/pages/about.html">About us</a></li>
+                    <li><a href="">Vacancies</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Returns policy</a></li>
+                </ul>
+            </div>
+            <div class="footer_col2">
+                <ul>
+                    <li><h6>Join our mailing list</h6></li>
+                    <li>
+                        <form action="...">
+                            <input type="email" id="email_footer" name="email" value="your@email.com">
+                            <input type="submit" id="signup_footer" value="Sign up">
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_line"></div>
+        <div class="footer_last">
+            <div>
+                <p>Copyright 2022 Avion LTD</p>
+            </div>
+            <div class="footer_icons">
+                <ul>
+                    <li><a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a></li>
+                    <li><a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a></li>
+                    <li><a href="https://www.skype.com/en/"><i class="bi bi-skype"></i></a></li>
+                    <li><a href="https://twitter.com/?lang=en"><i class="bi bi-twitter"></i></a></li>
+                    <li><a href="https://www.pinterest.com/"><i class="bi bi-pinterest"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>  
 </body>
 </html>

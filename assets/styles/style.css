@@ -160,6 +160,7 @@
 .card1 img{
     width: 163px;height: 201px;
 }
+
 #price_s{
     font-size: 18px;font-family: 'Satoshi';font-weight: 400;
     color:var(--purple);
