@@ -1,0 +1,28 @@
+@media screen and (min-width:800px) {
+    .header1_col1{
+        display: block;
+        margin-left: 28px;
+    }
+    .header1_icons{
+        display: flex;
+    }
+    .bi-search2{
+        display: none;
+    }
+    .bi-cart3, .bi-person-circle{
+        display: block;
+    }
+    .fa-bars {
+        display: none;
+    }
+    /*  */
+    .header_line{
+        display: block;
+        border: 1px solid rgb(229, 229, 229);
+        margin: 0 24px;
+    }
+    /*  */
+   .navbar{
+    display: block;
+}
+}
