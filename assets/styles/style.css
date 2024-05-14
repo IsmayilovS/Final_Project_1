@@ -266,6 +266,7 @@
     color: white;
     border: none;
     width: 118px;height: 56px;
+    cursor: pointer;
 }
 /* Section6 */
 .section6{
@@ -360,6 +361,7 @@ padding: 0 24px 15.5px 25px;
     color: var(--purple);
     border: none;
     width: 118px;height: 56px;
+    cursor: pointer;
 }
 .footer_line{
     border: 1px solid rgb(78, 77, 147);

@@ -75,6 +75,7 @@
         background-color: white;
         border: 0.5px solid rgb(220, 220, 220);
         border-radius: 2px;
+        
         cursor: pointer;
         display: flex;
         justify-content: center;
