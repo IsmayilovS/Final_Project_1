@@ -36,5 +36,63 @@
         padding-bottom: 36px;
         margin-left: 80px;
     }
+    
     /*  */
+    main{
+        display: flex;
+    }
+    nav{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 149px 0 80px;
+    }
+    nav h5{
+        font-size: 16px;font-weight: 400;font-family: 'Clash';
+        color: var(--purple);
+        margin: 48px 0 20px 0;
+    }
+    nav label{
+        font-size: 16px;font-weight: 400;font-family: 'Satoshi';
+        color: var(--purple);
+        display: flex;
+        justify-self: left;
+        align-self: left;
+        margin-left: 12px;
+        cursor: pointer;
+    }
+    nav span{
+        width: 150px;
+        display: flex;
+        padding-bottom: 12px;
+    }
+    /* Checkbox start */
+    nav input[type="checkbox"]{
+        appearance: none;
+        height: 16px;
+        width: 16px;
+        background-color: white;
+        border: 0.5px solid black;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    } 
+    nav input[type="checkbox"]:after{
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f00c";
+        font-size: 14px;
+        color: white;
+        display: none;
+    } 
+    nav input[type="checkbox"]:checked{
+        background-color: var(--purple);
+    } 
+    nav input[type="checkbox"]:checked::after{
+        display: block;
+    }
+     /* Checkbox end */
 }

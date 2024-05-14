@@ -91,3 +91,7 @@ section h1{
     font-size:36px;font-weight:400;font-family: 'Clash';
 }
 /*  */
+nav{
+    display: none;
+}
+
