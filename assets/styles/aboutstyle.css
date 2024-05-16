@@ -300,13 +300,13 @@
     grid-row:1;
 }
 .footer_col2{
-padding: 0 24px 15.5px 25px;
+    padding: 0 24px 15.5px 25px;
 }
-.footer_col2 ul li h6{
+.footer_col2 h6{
     font-size: 16px;font-family: 'Clash';font-weight: 400;
     color: white;
 }
-.footer_col2  form{
+.footer_col2 form{
     display: flex;
     width: 342px;height: 56px;
     margin-top: 16px;

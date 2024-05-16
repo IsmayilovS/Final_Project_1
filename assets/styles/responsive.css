@@ -184,11 +184,12 @@
 /*  */
 .footer_cols{
     display: flex;
+    justify-content: space-between;
 }
 .footer_col1{
     display: flex;
     gap: 109px;
-    padding: 58px 109px 78.5px 82px;
+    padding: 58px 0 78.5px 82px;
 }
 .footer_col1 ul{
     width: 108px;
@@ -205,15 +206,15 @@
     color: white;
 }
 .footer_col2{
-    padding: 58px 83px 161px 0px;
+    padding: 58px 0 0 0;
 }
 .footer_col2 ul li h6{
     font-size: 16px;font-family: 'Clash';font-weight: 400;
     color: white;
 }
-.footer_col2  form{
+.footer_col2 form{
     display: flex;
-    width: 627px;height: 56px;
+    width: 90%;height: 56px;
     margin-top: 16px;
 }
 #email_footer{
