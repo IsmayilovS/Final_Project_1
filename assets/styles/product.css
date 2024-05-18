@@ -55,6 +55,30 @@ header li{
     display: none;
 }
 /*  */
+.dropdowns{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.dropdown1, .dropdown2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: rgb(249, 249, 249);
+    width: 163px;height: 56px;
+    color: var(--purple);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.dropdown1 p, .dropdown2 p{
+    font-size: 16px;font-weight: 400;font-family: 'Satoshi';
+}
+.dropdown1 i, .dropdown2 i{
+    margin-top: 4px;
+}
+
+/*  */
 .navbar{
     display: none;
 }

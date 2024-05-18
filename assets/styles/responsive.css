@@ -77,7 +77,7 @@
         background-color: rgb(249, 249, 249);
         border: none;
         height: 56px;
-        width: 342px;
+        width: 170px;
     }
     .btn_2{
         text-align: center;
@@ -89,17 +89,14 @@
     .card1 img{
         width: 305px;height: 375px;
     }
-    .section3 button{
-        width: 170px;  
-    }
     /*  */
     .section4{
         height: 744px;
     }
     #section4_title{
-            font-size: 32x;font-family: 'Clash';font-weight: 400;
-            color: var(--purple);
-            padding: 0px 0px 40px 90px;
+        font-size: 32x;font-family: 'Clash';font-weight: 400;
+        color: var(--purple);
+        padding: 0px 0px 40px 90px;
     }
     .card_container2{
         display: block;

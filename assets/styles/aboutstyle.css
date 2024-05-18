@@ -70,10 +70,8 @@
 .header1_icons a{
     color: var(--purple);
 }
-.fa-bars {
-    color: var(--purple);
-    margin-left: 10px;
-}
+
+
 .bi-cart3, .bi-person-circle, .bi-search{
     display: none;
 }
