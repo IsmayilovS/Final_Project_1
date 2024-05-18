@@ -70,6 +70,9 @@
 .header1_icons a{
     color: var(--purple);
 }
+.fa-bars{
+    color: var(--purple);
+}
 
 
 .bi-cart3, .bi-person-circle, .bi-search{
